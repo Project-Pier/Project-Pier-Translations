@@ -8,18 +8,33 @@
     'login' => 'Авторизация',
     'logout' => 'Выход',
     'hide welcome info' => '&raquo; Убрать этот информационный блок навсегда',
+		'edit logo' => 'Изменить логотип',
+		'upload logo' => 'Загрузить логотип',
+		'delete logo' => 'Удалить логотип',
 
     // Companies
     'add company' => 'Новая компания',
     'edit company' => 'Правка компании',
     'delete company' => 'Удалить компанию',
-    'edit company logo' => 'Обновить логотип',
-    'delete company logo' => 'Удалить логотип',
+    'edit company logo' => 'Обновить логотип компании',
+    'delete company logo' => 'Удалить логотип компании',
+		'show map' => 'Показать карту',
 
     // Clients
     'add client' => 'Новый клиент',
     'edit client' => 'Правка клиента',
     'delete client' => 'Удалить клиента',
+
+		// Contacts
+		'add contact' => 'Добавить контакт',
+		'edit contact' => 'Изменить контакт',
+		'delete contact' => 'Удалить контакт',
+		'edit user account' => 'Изменить пользовательский аккаунт',
+		'delete user account' => 'Удалить пользовательский аккаунт',
+		'toggle favorite' => 'Добавить в избраное',
+		'done adding contacts' => 'Завершено добавление контакта',
+		'list view' => 'Список',
+		'detail view' => 'Детально',
 
     // Users
     'add user' => 'Новый пользователь',
@@ -110,8 +125,8 @@
 
     // added missing strings:
    'show map' => 'Показать карту',
-   'projects logo edit' => 'Изменить лого',   
-   'projects logo delete' => 'Удалить лого',   
+   'projects logo edit' => 'Изменить лого проэкта',   
+   'projects logo delete' => 'Удалить лого прожкта',   
    'update logo' => 'Обновить лого',   
    'upload logo' => 'Установить лого',   
    'can manage projects' => 'Управление своими проектами',   

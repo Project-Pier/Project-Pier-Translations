@@ -141,6 +141,10 @@
 
     // Tickets
     'my tickets' => 'Мои билеты',
-
+		'filters' => 'Фильтры',
+		'new' => 'Новый',
+		'pending' => 'Незаконченный',
+		'updated on' => 'Обновлен',
+		'most recent' => 'Новые',
   ); // array
 

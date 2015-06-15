@@ -197,4 +197,6 @@
     'days' => 'дней',
     'minutes' => 'минут',
     'seconds' => 'сек',
+
+		'weekly schedule' => 'Моя неделя',
   ); // array

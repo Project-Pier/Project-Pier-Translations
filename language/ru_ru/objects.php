@@ -14,6 +14,8 @@
     'client' => 'Клиент',
     'clients' => 'Клиенты',
     'package' => 'Пакет',
+    'contact' => 'Контакт',
+    'contacts' => 'Контакты',
     'project' => 'Проект',
     'projects' => 'Проекты',
     'message' => 'Сообщение',
