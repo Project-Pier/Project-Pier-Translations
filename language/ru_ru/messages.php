@@ -276,6 +276,32 @@
     'log edit projectfilerevisions' => '%s обновлён',
     'log delete projectfilerevisions' => '%s удалён',
 
+		'log add projects' => '%s добавлен',
+		'log edit projects' => '\'%s\' изменен',
+		'log open projects' => '\'%s\' открыт',
+		'log close projects' => '\'%s\' закрыт',
+		'log delete projects' => '\'%s\' удален',
+
+		'log add users' => 'Пользователь \'%s\' добавлен',
+		'log edit users' => 'Пользователь \'%s\' изменен',
+		'log delete users' => 'Пользователь \'%s\' удален',
+
+		'log add companies' => 'Компания \'%s\' добавлена',
+		'log edit companies' => 'Компания \'%s\' обновлена',
+		'log delete companies' => 'Компания \'%s\' удалена',
+
+		'log add contacts' => 'Контакт \'%s\' добавлен',
+		'log edit contacts' => 'Контакт \'%s\' изменен',
+		'log delete contacts' => 'Контакт \'%s\' удален',
+
+		'log add i18nlocales' => 'Локаль \'%s\' добавлена',
+		'log edit i18nlocales' => 'Локаль \'%s\' обновлена',
+		'log delete i18nlocales' => 'Локаль \'%s\' удалена',
+
+		'log add i18localevalues' => 'Значение локали \'%s\' добавлено',
+		'log edit i18nlocalevalues' => 'Значение локали \'%s\' обновлено',
+		'log delete i18nlocalevalues' => 'Значение локали \'%s\' удалено',
+
     'time dnx' => 'Запрошенная запись о времени отсутствует',
     'about to move' => 'Вы собираетесь перенести',
     'success copy project' => 'Проект %s был скопирован в %s',
