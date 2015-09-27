@@ -1,12 +1,13 @@
 <?php
 
-  /**
+  /** 
+  * Error messages
+  *
+  * @version 1.0
   * @http://www.projectpier.org/
-  * 
-  * Translated by Martin Liu (http://martinliu.cn)
-  *  Reviewed on 2011-1-15 7PM
   */
-
+  
+// Return langs
   return array(
   
     // General
@@ -16,7 +17,13 @@
     // Company validation errors
     'company name required' => '需要公司组织名称',
     'company homepage invalid' => '主页地址格式错误(http://www.example.com)',
-    
+      
+      // Contact validation errors
+      'name value required' => '名称必填',
+      'existing contact required' => '你需要选择现存的联系人',
+     
+      // Add user to contact form
+      'contact already has user' => '该联系人已经关联了一个用户帐号',
     // User validation errors
     'username value required' => '需要填写用户名',
     'username must be unique' => '抱歉，所选用户名已经被占有了',
@@ -46,6 +53,7 @@
     'username value missing' => '请输入你的用户名',
     'password value missing' => '请输入你的用密码',
     'invalid login data' => '登陆失败，请检查你的登陆信息后重试',
+      'invalid password' => '密码不正确，请坚持并重试',
     
     // Add project form
     'project name required' => '需要项目名称',

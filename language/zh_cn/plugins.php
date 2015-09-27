@@ -1,12 +1,5 @@
 <?php
 
-  /**
-  * @http://www.projectpier.org/
-  * 
-  * Translated by Martin Liu (http://martinliu.cn)
-  *  Reviewed on 2011-1-15 7PM
-  */
-
   return array(
   
     'plugin' => '插件',
