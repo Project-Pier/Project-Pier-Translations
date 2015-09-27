@@ -5,8 +5,8 @@ return array (
     // Objects
     'user' => '用户',
     'users' => '用户',
-    'contact' => 'Contact',
-    'contacts' => 'Contacts',
+    'contact' => '联系人',
+    'contacts' => '联系人',
     'member' => '成员',
     'members' => '成员',
     'company' => '公司',

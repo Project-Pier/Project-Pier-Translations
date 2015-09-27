@@ -25,7 +25,7 @@
     'my projects archive desc' => '已完成的归档项目清单，所有关于这个项目的动作已经被锁定，但是您仍然可以浏览此项目.',
     'my files' => 'My files',
     
-    'company online' => '公司在线',
+    'company online' => '公司线上联系方式',
     
     'enable javascript' => '让浏览器启用JavaScript功能',
     
