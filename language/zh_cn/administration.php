@@ -48,8 +48,8 @@ return array (
     // ---------------------------------------------------
     
     // General
-    'config option name site_name' => '地点名称',
-    'config option desc site_name' => '这个值将被作为项目的地点名称在仪表板页面上显示',
+    'config option name site_name' => '当前所在',
+    'config option desc site_name' => '这个值将被作为项目的当前所在在仪表板页面上显示',
     'config option name file_storage_adapter' => '文件存储',
     'config option desc file_storage_adapter' => '选择用来存储附件、头像、图标图片和其他任何上传文档的位置。 <strong>推荐使用数据库引擎存储</strong>.',
     'config option name default_project_folders' => '默认文件夹',
