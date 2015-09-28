@@ -53,7 +53,7 @@
 
     'ticket dnx' => '请求的工单不存在',
     'no tickets in project' => '该项目尚无工单',
-    'no my tickets' => '尚未指派给你的工单',
+    'no my tickets' => '尚无指派给你的工单',
     'no changes in ticket' => '该工单未变更过',
     'category dnx' => '请求的分类不存在',
     'no categories in project' => '该项目中未添加分类',

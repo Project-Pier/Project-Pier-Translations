@@ -86,7 +86,7 @@ return array (
     'edit project to select milestone' => '<em>选择里程碑</em>',
     
     'edit company data' => '<a href="%s">编辑</a> 公司数据',
-    'company users involved in project' => '%s 个用户参与在 %s',
+    'company users involved in project' => '%s 公司用户参与项目 %s',
     'companies involved in project' => '参与项目的公司',
     'users involved in project' => '未参与的用户',
     
