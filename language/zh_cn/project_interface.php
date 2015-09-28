@@ -1,18 +1,10 @@
 <?php
 
-  /**
-  * @http://www.projectpier.org/
-  * 
-  * Translated by Martin Liu (http://martinliu.cn)
-  *  Reviewed on 2011-1-15 7PM
-  */
-
-
-  // Array of langs
-  return array(
+// Array of langs
+return array (
     'upcoming milestones in next 30 days' => '近期的里程碑(在下一个30天里)',
     'show all upcoming milestones' => '显示所有将来的里程碑 (总共 %s 个)',
-  
+    
     'recent activities' => '最近的活动',
     'search button caption' => '搜索',
     'search result description' => '显示 <strong>%s 的 %s</strong> 对象匹配 <strong>"%s"</strong> 的',
@@ -23,7 +15,7 @@
     'enable comments desc' => '能查看这个对象的用户能够对它发表评论。选择 "否" 来锁定评论',
     'enable anonymous comments' => '匿名评论',
     'enable anonymous comments desc' => '允许匿名的评论被发表在这个项目上。匿名评论可以通过API或者其他信息信息源来发布 (如果启用了). 作者必须提供一个有效的姓名和电子邮件地址。 来源的 IP 地址将被记录下来。',
-  
+    
     'completed task' => '已完成任务',
     'completed tasks' => '已完成任务',
     'open task' => '未完成任务',
@@ -31,6 +23,8 @@
     'view all completed tasks' => '所有已完成任务 (总计 %s 个)',
     'recently completed tasks' => '最近完成的任务',
     'task open of total tasks' => '%s 个未完成任务在总数 %s 个的任务清单中',
+    'edit project to select task list' => '<em>编辑项目详情，以选择一个任务清单</em>',
+    'edit project to select task' => '<em>编辑项目详情，以选择一个任务</em>',
     
     'read more' => '查看详情',
     'message separator' => '<p>* * *</p>',
@@ -45,7 +39,10 @@
     'posted on' => '%s',
     'milestone assigned to' => '分派给 %s',
     'project started on' => '开始于',
-
+    
+    'parent project' => '父项目',
+    'subprojects' => '子项目',
+    
     'projects copy new name' => '%s (复制项目)',
     'projects copy source' => '从此项目复制',
     'projects copy details' => '复制详情',
@@ -58,7 +55,7 @@
     'projects copy users' => '复制用户和公司',
     'projects copy links' => '复制链接',
     'projects copy pages' => '复制 Wiki 页面',
-
+    
     'can manage files' => '能管理文件',
     'can upload files' => '能上传文件',
     'can manage messages' => '能管理消息',
@@ -70,22 +67,42 @@
     'can assign tasks to owner company' => '能分派任务给所属公司',
     'can change milestones status' => '能变更里程碑的状态',
     'can manage times' => '能管理时间',
+    'can access messages' => '可访问消息',
+    'can access tasks' => '可访问任务',
+    'can access files' => '可访问文件',
+    'can access forms' => '可访问表单',
+    'can access contacts' => '可访问联系人',
+    'can access wiki' => '可访问wiki',
+    'can access reports' => '可访问报表',
+    'can manage contacts' => '可管理联系人',
+    'can manage wiki' => '可管理wiki',
+    'can access search' => '可访问搜索',
+    'can access tags' => '可访问tag',
+    'can access comments' => '可访问评论',
     
     'send milestone assigned to notification' => '发送邮件通知给用户',
-    'task list target project' => '项目来移动项目清单到',
+    'project to move to' => '项目 %s 移动到',
+    'task list target project' => '移动任务清单到',
+    'edit project to select milestone' => '<em>选择里程碑</em>',
     
     'edit company data' => '<a href="%s">编辑</a> 公司数据',
-    'company users involved in project' => '%s 个用户参与在 %s',
+    'company users involved in project' => '%s 公司用户参与项目 %s',
     'companies involved in project' => '参与项目的公司',
+    'users involved in project' => '未参与的用户',
     
     'project permissions form hint' => '使用 <a href="%s">权限表单</a> 你能方便地增加或者删除公司和用户，并控制他们的访问权限.',
     
     'additional message text desc' => '只在评论页面上可见的附加消息文字',
+    'edit project to select message' => '<em>选择消息</em>',
     'expand additional text' => '展开',
     'collapse additional text' => '收缩',
     'email notification' => '邮件通知',
     'email notification desc' => '通过邮件把这个消息通知给选中的人',
     
+    'attach existing contact' => '附加地址簿现存联系人',
+    'new contact' => '新建联系人',
+    'select contact' => '选择联系人',
+    'edit project to select contact' => '<em>选择联系人</em>',
     'subscribers desc' => '订阅将在当其他人发布一个评论在这个信息上的时候收到一个邮件通知',
     'admins can post comments on locked objects desc' => '<strong>评论已被锁定</strong>，但是你作为管理员将会有权限发布评论。注意如果你期望从你的客户或者非管理员用户收到回复，你需要对这个对象的评论解锁  <i>(设置 "启用评论" 选项为 "是")</i>.',
     
@@ -98,11 +115,12 @@
     'open by' => '被开放',
     'upload by' => '被上传',
     'created by' => '被创建',
+    'created on' => 'Created',
     
     'project description' => '描述',
     'project status' => '项目状态',
     'show project desciption in overview' => '在概要页面上显示项目描述?',
-
+    
     'admin notice comments disabled' => '评论在这个对象上被禁用, 但是你作为管理员将会有权限发布评论。 如果你期望来自其他非管理员的回复，你需要设置 "启用评论" 为 "是"。',
     
     // iCal
@@ -116,13 +134,13 @@
     'private milestone desc' => '私有里程碑只对公司内部成员是可见的。 客户公司成员将不能看到它们.',
     'private task list desc' => '私有任务清单只对公司内部成员是可见的。 客户公司成员将不能看到它们',
     'private comment desc' => '私有评论只对公司内部成员是可见的。 客户公司成员将不能看到它们',
-
+    
     'priority' => '优先度',
     'order by name' => '按名称排序',
     'order by priority' => '按优先度排序',
     'order by milestone' => '按里程碑排序',
-    'group by project' => '按项目分组',
-    
-  ); // array
+    'group by project' => '按项目分组' 
+)
+; // array
 
 ?>

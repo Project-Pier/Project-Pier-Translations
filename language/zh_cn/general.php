@@ -1,15 +1,34 @@
 <?php
 
-  /**
-  * @http://www.projectpier.org/
-  * 
-  * Translated by Martin Liu (http://martinliu.cn)
-  *  Reviewed on 2011-1-15 7PM
-  */
-
-
-  // Return array of langs
-  return array(
+// Return array of langs
+return array (
+    'show route' => '显示路线',
+    'reserve parking space' => '预留停车位',
+    'display name' => '显示名称',
+    'first name' => '名',
+    'middle name' => 'Middle name',
+    'last name' => '姓',
+    'additional' => '附加',
+    'license plate' => '车牌',
+    'language preferences' => '语言参数',
+    'food preferences' => '饮食参数',
+    'location details' => '位置详情',
+    'department details' => '部门详情',
+    'i18n' => '国际化',
+    'i18n locale value' => 'locale值',
+    'country code' => '国家编码',
+    'language code' => '语言编码',
+    'click to edit' => '单击编辑、Esc退出、回车保存',
+    'editor' => '编辑器',
+    'edit values' => '编辑值',
+    'load values' => '加载值',
+    'add locale' => '添加locale',
+    'edit locale' => '编辑locale',
+    'locale' => 'Locale',
+    'id' => 'Id.',
+    'updated by' => '更新者',
+    'success edit locale' => 'Locale已被保存',
+    'invalid reference' => '无效引用 %s',
     'username' => '用户名',
     'password' => '密码',
     'password again' => '重复输入密码',
@@ -18,9 +37,14 @@
     'clear cookies' => '清除cookies',
     'email address' => '电子邮件地址',
     'display name' => '显示名',
+    'company name' => '公司名',
     'overview' => '概要',
+    'refresh' => 'Refresh',
     'search' => '搜索',
+    'search hint' => '4个或更多字符',
     'search results' => '搜索结果',
+    'search results for' => ' \'%s\'的搜索结果',
+    'shown/lc' => 'shown',
     'account' => '帐户',
     'settings' => '设置',
     'index' => '索引',
@@ -39,11 +63,17 @@
     'hrs' => '小时',
     'details' => '详情',
     'date' => '日期',
+    'contact title' => '联系人头衔',
     'title' => '标题',
     'description' => '描述',
     'text' => '文本',
     'additional text' => '附加文本',
-    'due date' => '截至日期',
+    'date' => 'Date',
+    'due date' => '截止日期',
+    'no due date' => '无截止日期',
+    'start date' => '起始日期',
+    'end date' => '结束日期',
+    'weekly schedule' => '我的周计划',
     'done date' => '日期',
     'assign to' => '指派',
     'not assigned' => '未指派',
@@ -74,6 +104,8 @@
     'by' => '由',
     'on' => '之上',
     'in' => '之内',
+    'true' => 'True',
+    'false' => 'False',
     'people' => '人员',
     'permission' => '权限',
     'permissions' => '权限',
@@ -95,8 +127,7 @@
     'state' => '州',
     'zipcode' => '邮编',
     'country' => '国家',
-    'n/a' => '<acronym title="Not Available">n/a</acronym>',
-    'contact' => '联系人',
+    'n/a' => '<acronym title="不可用">n/a</acronym>',
     'pagination page' => '主页:',
     'pagination first' => '第一页',
     'pagination previous' => '前一页',
@@ -109,6 +140,7 @@
     'expand' => '扩展',
     'collapse' => '收起',
     'author' => '作者',
+    'contact title' => '联系人头衔',
     'user title' => '标题',
     'more' => '更多',
     'order by' => '排序',
@@ -120,16 +152,22 @@
     'hint' => '提示',
     'order' => '排序',
     'private' => '私有',
+    'public' => 'Public',
     'total' => '合计',
     'demo only' => '仅仅为了演示目的',
-    'use gravatar' => '请使用 50x50 的来自gravatar.com的头像',
+    'use gravatar' => '使用来自于gravatar.com 50x50 的头像',
+    'avatar from gravatar' => '来自于gravatar.com的头像',
     'hide options' => '隐藏选现',
     'hide' => '隐藏',
     'language' => '语言',
     'enable trace' => '启用跟踪',
     'theme' => '皮肤',
     'chat' => '聊天',
-    
+    'unassigned' => '未指派',
+    'you' => '你',
+    'snapshot' => '快照',
+    'favorite' => '收藏',
+    'not favorite' => '不收藏',
     'project calendar' => '%s 项目日历',
     'user calendar' => '%s 的用户日历',
     
@@ -145,7 +183,7 @@
     'month 10' => '十月',
     'month 11' => '十一月',
     'month 12' => '十二月',
-
+    
     'month full 1' => '一月',
     'month full 2' => '二月',
     'month full 3' => '三月',
@@ -158,7 +196,7 @@
     'month full 10' => '十月',
     'month full 11' => '十一月',
     'month full 12' => '十二月',
-
+    
     'month short 1' => '1月',
     'month short 2' => '2月',
     'month short 3' => '3月',
@@ -171,7 +209,7 @@
     'month short 10' => '10月',
     'month short 11' => '11月',
     'month short 12' => '12月',
-
+    
     'weekday full 1' => '星期一',
     'weekday full 2' => '星期二',
     'weekday full 3' => '星期三',
@@ -179,7 +217,7 @@
     'weekday full 5' => '星期五',
     'weekday full 6' => '星期六',
     'weekday full 7' => '星期日',
-
+    
     'weekday short 1' => '星期一',
     'weekday short 2' => '星期二',
     'weekday short 3' => '星期三',
@@ -187,7 +225,7 @@
     'weekday short 5' => '星期五',
     'weekday short 6' => '星期六',
     'weekday short 7' => '星期日',
-
+    
     'ordinal 0' => 'th',
     'ordinal 1' => 'st',
     'ordinal 2' => 'nd',
@@ -198,25 +236,26 @@
     'ordinal 7' => 'th',
     'ordinal 8' => 'th',
     'ordinal 9' => 'th',
-
+    
     'am' => '上午',
     'pm' => '下午',
-
+    
     'AM' => '上午',
     'PM' => '下午',
-
+    
     'datetime format' => 'Y M d H:i',
     'date format' => 'Y M d',
+    'input date format' => 'M d, yy',    // jQuery format
     'descriptive date format' => 'l, F j',
     'time format' => 'H:i',
-    'address format' => 'h s, z p',      // h=house number, s=street, z=zip/postal code, p=place
-
+    'address format' => 'h s, z p', // h=house number, s=street, z=zip/postal code, p=place
+    
     'weeks' => '星期',
     'days' => '天',
     'hours' => '小时',
     'minutes' => '分钟',
-    'seconds' => '秒',
+    'seconds' => '秒' 
 
-  ); // array
+    ); // array
 
 ?>

@@ -1,12 +1,10 @@
 <?php
 
   /**
+  * Dashboard interface langs
+  *
   * @http://www.projectpier.org/
-  * 
-  * Translated by Martin Liu (http://martinliu.cn)
-  * Reviewed on 2011-1-15 7PM
   */
-
   
   // Return langs
   return array(
@@ -25,8 +23,9 @@
     
     'my projects' => '我的项目',
     'my projects archive desc' => '已完成的归档项目清单，所有关于这个项目的动作已经被锁定，但是您仍然可以浏览此项目.',
+    'my files' => 'My files',
     
-    'company online' => '公司在线',
+    'company online' => '公司线上联系方式',
     
     'enable javascript' => '让浏览器启用JavaScript功能',
     
@@ -97,14 +96,6 @@
     // Dashboard
     'welcome to new account' => '欢迎来的您的新建帐户',
     'welcome to new account info' => '%s，欢迎来到你的心帐户。从现在开始它会在 %s 一直可用 (你能把这个连接加入书签). 你跟随着这些步骤可以在一分钟之内开始工作。',
-    'new account step1' => '步骤 1: 更新你的公司信息',
-    'new account step1 info' => '<a href="%s">设置你的公司信息</a> 例如电话号码，传真号码，地址，电子邮件，主页等等。',
-    'new account step2' => '步骤 2: 增加项目成员',
-    'new account step2 info' => '你能 <a href="%s">新建用户帐户</a> ，为所有项目团队成员 (不限制成员数量)。 每一个成员将受到用来访问本系统的用户名和密码',
-    'new account step3' => '步骤 3: 增加公司和他们的成员',
-    'new account step3 info' => '现在来 <a href="%s">定义客户公司</a> (不限制数量). 在完成了之后，你能增加他们的项目成员，或者把这个工作交给他们的团队领导。客户成员和你公司的成员类似 ，除了他们只有有限的内容和功能的访问权限 (你可以按照每个项目或者成员来设置他们能作什么)',
-    'new account step4' => '步骤 4: 开始一个项目',
-    'new account step4 info' => '定义一个<a href="%s">新项目</a> 是非常简单的：设置一个名称和描述(可选的)，然后在点提交。然后你可能去设置项目成员和客户的权限。',
     'add welcome task text' => '您好 %s, 欢迎来的你的新帐户。请在7天之内更新您的profile %s.',
     'add welcome task' => '为欢迎项目添加一个任务',
     'add welcome task desc' => '一个任务被添加到了欢迎项目的任务清单中，它带有欢迎信息和更新profile的说明。',
